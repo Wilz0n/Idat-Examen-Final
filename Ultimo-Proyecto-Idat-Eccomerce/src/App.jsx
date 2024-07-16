@@ -6,7 +6,7 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 
 
-export const App = () => {
+const App = () => {
   return (
     <div className='app'>
       <Navbar/>
