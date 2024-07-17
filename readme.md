@@ -5,3 +5,4 @@
 “https://www.bembos.com.pe/“
 ``` 
 
+Realizar pruebas para el "sign Up y el cart Page" .
