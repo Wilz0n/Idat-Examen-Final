@@ -1,0 +1,101 @@
+/* Estilos para el contenedor principal del formulario */
+.signup {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid orangered;
+  }
+  
+  /* Estilos para el título del formulario */
+  .signup h2 {
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las filas del formulario (dos columnas) */
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para los grupos de campos */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los inputs y select */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group select {
+    width: calc(100% - 20px); /* Ajuste para el ancho del icono */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 40px; /* Espacio para el icono */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho */
+  }
+  
+  /* Estilos para los iconos dentro de los inputs */
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #df5200;
+  }
+  
+  /* Estilos para el grupo de checkboxes */
+  .checkbox-group {
+    margin-top: 10px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el grupo de términos y condiciones */
+  .terms {
+    margin-top: 15px;
+  }
+  
+  /* Estilos para el botón de registro */
+  .btn-signup {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-signup:hover {
+    background-color: #e65100;
+  }
+  
+  /**/
+
+  
