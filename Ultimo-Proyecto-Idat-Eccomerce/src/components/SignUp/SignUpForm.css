@@ -10,47 +10,46 @@
     border: 2px solid orangered;
   }
   
-  /* Estilos para el título del formulario */
+
   .signup h2 {
     color: #ff6600;
     text-align: center;
     margin-bottom: 20px;
   }
   
-  /* Estilos para las filas del formulario (dos columnas) */
+
   .form-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
   }
   
-  /* Estilos para los grupos de campos */
+  
   .form-group {
     margin-bottom: 15px;
   }
   
-  /* Estilos para las etiquetas de los campos */
+
   .form-group label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  /* Estilos para los inputs y select */
   .form-group input[type="text"],
   .form-group input[type="email"],
   .form-group input[type="password"],
   .form-group select {
-    width: calc(100% - 20px); /* Ajuste para el ancho del icono */
+    width: calc(100% - 20px); 
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding-left: 40px; /* Espacio para el icono */
-    box-sizing: border-box; /* Incluir padding y borde en el ancho */
+    padding-left: 40px; 
+    box-sizing: border-box; 
   }
   
-  /* Estilos para los iconos dentro de los inputs */
+
   .input-group {
     position: relative;
   }
@@ -63,7 +62,7 @@
     color: #df5200;
   }
   
-  /* Estilos para el grupo de checkboxes */
+
   .checkbox-group {
     margin-top: 10px;
   }
@@ -73,12 +72,12 @@
     margin-bottom: 5px;
   }
   
-  /* Estilos para el grupo de términos y condiciones */
+
   .terms {
     margin-top: 15px;
   }
   
-  /* Estilos para el botón de registro */
+ 
   .btn-signup {
     margin-top: 20px;
     display: block;
@@ -96,6 +95,5 @@
     background-color: #e65100;
   }
   
-  /**/
-
+ 
   
